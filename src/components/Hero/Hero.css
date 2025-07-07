@@ -1,0 +1,143 @@
+.hero-wrapper{
+    color: white ;
+    position: relative;
+    padding: 5rem;
+    
+
+}
+.hero-container{
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+/* left side */
+.hero-left{
+    gap: 3rem;
+  
+    /* position: relative; */
+}
+.hero-title {
+    position: relative;
+    z-index: 1;
+   
+
+  }
+  
+  .hero-title>h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+  }
+  
+  .orange-circle{
+    height: 4rem;
+    width: 4rem;
+   background: var(--orange-gradient);
+    border-radius: 100%;
+    z-index: -3;
+    position: absolute;
+   top: -10px;
+   right: 30%;
+  }
+  .search-bar {
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .search-bar>input{
+    outline: none;
+    border: none;
+  }
+  .stats{
+    justify-content: space-between;
+    width: 100%;
+  }
+  .stat>:nth-child(1){
+    font-size: 2rem;
+  }
+  .stat>:nth-child(1)>:last-child{
+    color: orange;
+
+  }
+/* right side */
+  .image-container {
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+    display: flex; /* 🌟 Add Flexbox to center its children */
+    justify-content: center; /* 🌟 Horizontally center the content */
+    align-items: center;
+  }
+.image-container>img{
+    width: 100%;
+    height: 100%;
+}  
+.hero-des .text-respScre{
+    display: none;
+}
+@media  (max-width: 768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-title {
+    text-align: center;
+  }
+  .hero-title>h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .image-container {
+    width: 90%;
+    height: 25rem;
+   
+  }
+  .stat{
+    margin-left: 1rem;
+   }
+  .hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  
+ 
+}
+@media (max-width:440px) {
+  .search-bar{
+    width: 100%;
+    padding: 3px 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    
+  }
+  .search-bar button{
+    display: none;
+  }
+  
+  .hero-des .text-respScre{
+    display: block;
+    text-align: center;
+    text-justify: auto;
+  }
+  .hero-des .secondaryText,.secondaryText{
+    display: none;
+  }
+  .stats{
+    display: flex;
+    flex-direction: column;
+
+  }
+}

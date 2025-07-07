@@ -1,0 +1,100 @@
+.c-container{
+    justify-content: space-around;
+    padding-left: 4.5rem;
+}
+.c-container>div{
+    flex: 1;
+}
+.c-right{
+    width: 100%;
+    margin-left: 18rem;
+}
+.c-left{
+    gap: 0.5rem;
+}
+CSS
+
+.contactModes {
+  margin-top: 2rem;
+  gap: 1rem;
+  border: 1px red;
+
+}
+
+.contactModes .row {
+  gap: 1.5rem;
+  border: 1px red;
+}
+.mode {
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in-out;
+  }
+
+  .mode .button {
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .mode > :nth-child(1) {
+    width: 100%;
+    gap: 1.6rem;
+  }
+  
+  .mode .detail .primaryText1 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--blue);
+  }
+  @media  (max-width: 768px) {
+    .c-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: -20px;
+      
+    }
+    .c-right {
+      order: 1;
+      width: 80%;
+      height: 30rem;
+      margin-left:10px;
+    }
+    .c-right>img {
+      width: 100%
+    }
+    .c-right>img {
+      
+      
+      width: 80%;
+    }
+    .c-left {
+      order: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      height: 30rem;
+    }
+  
+    
+  }
+  @media (max-width: 425px) {
+    .contactModes{
+      margin-left: -20px;
+    }
+    .contactModes .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }

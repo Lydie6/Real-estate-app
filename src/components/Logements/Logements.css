@@ -1,0 +1,77 @@
+.l-wrapper{
+    overflow: hidden;
+}
+.l-container{
+    position: relative;
+}
+.l-head{
+    margin-bottom: 2rem;
+}
+
+.l-card{
+    gap: 0.6rem;
+   
+    padding: 1rem;
+    max-width: max-content;
+    border-radius: 10px;
+    margin: auto;
+    transition: all 300ms ease-in-out;
+    min-width:17rem;
+}
+.l-card>img{
+   
+    max-width: 15rem;
+}
+.l-card>:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.l-card>:nth-child(3){
+    
+    font-size: 1.5rem;
+    width: 17rem;
+    
+    
+}
+.l-card>:nth-child(4){
+    font-size: 0.7rem;
+    width: 15rem;
+    
+}
+.l-card:hover {
+    scale: 1.025;
+    cursor: pointer;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(136, 160, 255, 0.46) 217.91%
+    );
+    box-shadow: 0px 72px 49px -51px rgba(136, 160, 255, 0.21);
+  }
+  
+  .swiper-horizontal {
+    overflow: visible;
+  }
+  .l-button{
+    position: absolute;
+    gap: 0.8rem ;
+    top: -4rem;
+    right: 0%;
+  }
+  .l-button button{
+    padding: 0.2rem 0.7rem;
+    font-size: 1.3rem;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+  }
+  .l-buttons > :nth-child(1) {
+    background-color: #eeeeef;
+  }
+  
+  .l-buttons > :nth-child(2) {
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+  }

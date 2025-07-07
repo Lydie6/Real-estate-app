@@ -1,0 +1,95 @@
+.v-container .image-container {
+  border: 8px solid rgb(232 232 232 / 93%);
+}
+
+.v-container > div {
+  flex: 1;
+}
+
+.v-right {
+  gap: 0.5rem;
+  
+}
+.v-left{
+  margin-left: 2rem;
+}
+
+.accordion {
+  margin-top: 2rem;
+  border: none;
+  width: 100%;
+}
+
+.accordionItem {
+  background: #1a1a1a; /* Fond sombre comme dans la deuxième image */
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  color: #fff; /* Texte blanc */
+  padding: 0.5rem;
+}
+
+.accordionButton {
+  background: #1a1a1a;
+  padding: 0.5rem;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #1e90ff; /* Bleu clair pour le texte */
+}
+.AccordionItemPanel{
+  padding: 0.2rem 0.9rem;
+}
+.icon {
+  padding: 5px;
+  background: transparent; /* Supprimer le fond gris */
+  border-radius: 50%; /* Rendre les icônes circulaires */
+}
+
+.icon svg {
+  fill: #1e90ff; /* Bleu clair pour les icônes */
+}
+
+.accordionButton .primaryText {
+  font-size: 1.1rem;
+  color: #1e90ff; /* Bleu clair pour le texte */
+}
+
+.accordionItem.expanded {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+
+.accordionItemPanel {
+  background: #2a2a2a; /* Fond légèrement plus clair pour le panneau */
+  padding: 1rem;
+  color: #ccc; /* Gris clair pour le texte du panneau */
+}
+
+.secondaryText {
+  color: #ccc; /* Assurer la cohérence avec le panneau */
+}
+/* $$$$$$$$$$$$$$$$ */
+@media (max-width: 768px) {
+  .v-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  .v-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .v-right > span:first-child {
+    font-size: 30px;
+    ; /* exemple de style supplémentaire */
+  }
+  
+  
+}

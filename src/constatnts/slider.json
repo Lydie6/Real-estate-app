@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Résidence El Bahia",
+    "price": "47,043",
+    "detail": "Rue Didouche Mourad, Hydra, Alger",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Résidence Les Jasmins",
+    "price": "66,353",
+    "detail": "Route de Béni Mered, Blida",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Résidence Palmier d'Or",
+    "price": "35,853",
+    "detail": "Cité 400 logements, Bordj El Kiffan, Alger",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Résidence El Bahia",
+    "price": "47,043",
+    "detail": "Rue Didouche Mourad, Hydra, Alger",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Résidence Les Jasmins",
+    "price": "66,353",
+    "detail": "Route de Béni Mered, Blida",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Résidence Palmier d'Or",
+    "price": "35,853",
+    "detail": "Cité 400 logements, Bordj El Kiffan, Alger",
+    "image": "./r3.png"
+  }
+]
+
