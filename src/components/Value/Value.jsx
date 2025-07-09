@@ -27,11 +27,11 @@ const Value = () => {
 
         {/* right side */}
         <div className="flexColStart v-right">
-          <span className="orangeText">Our Value</span>
+        <span className="orangeText" >Our Value</span>
           <span className="primaryText">Value We Give to You</span>
           <span className="secondaryText">
             We are always ready to help by providing the best services for you.
-            <br />
+            
             We believe a good place to live can make your life better.
           </span>
           <Accordion
@@ -39,15 +39,15 @@ const Value = () => {
             allowMultipleExpanded={false}
             preExpanded={[0]}
           >
-            {data.map((item, i) => {
-              const [className, setClassName] = useState(null);
-              // Définir une icône spécifique pour chaque élément
-              const getIcon = () => {
-                if (i === 0) return <FaCheck />;
-                if (i === 1) return <FaTimes />;
-                if (i === 2) return <FaCircle />;
-                return null;
-              };
+                {data.map((item, i) => {
+                  const [className, setClassName] = useState(null);
+                  // Définir une icône spécifique pour chaque élément
+                  const getIcon = () => {
+                    if (i === 0) return <FaCheck />;
+                    if (i === 1) return <FaTimes />;
+                    if (i === 2) return <FaCircle />;
+                    return null;
+                  };
 
               return (
                 <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
