@@ -145,5 +145,7 @@
   .hero-wrapper{
     padding: 2rem;
      }
-
+     .search-bar button{
+      display: none;
+    }
 }
