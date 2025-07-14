@@ -141,3 +141,9 @@
 
   }
 }
+@media (max-width:380px){
+  .hero-wrapper{
+    padding: 2rem;
+     }
+
+}

@@ -132,3 +132,10 @@
   }
  
 }
+@media (max-width:380px){
+  .v-left{
+    width: 100%;
+    margin-left: 20px;
+  }
+
+}
